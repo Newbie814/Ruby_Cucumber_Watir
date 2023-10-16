@@ -1,4 +1,11 @@
 class ClassA
+
+def initialize(a,b)
+  puts 'this is my constructor'
+  c=a-b
+  puts c
+end
+
   def intMethod
     puts "This is intMethod"
 

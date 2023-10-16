@@ -1,6 +1,7 @@
 require './ClassMet.rb'
 
-obj = ClassA.new
+obj = ClassA.new(0,0)
+obj2 = ClassA.new(10,6)  # notice that constructor is called, even though no other method called on this new instance
 
 obj.intMethod()
 
